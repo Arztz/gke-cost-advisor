@@ -1,0 +1,40 @@
+# Git
+.git
+.gitignore
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Documentation
+*.md
+!README.md
+
+# Build artifacts
+/bin
+/dist
+/server
+*.exe
+
+# Test files
+*_test.go
+/testdata
+/coverage.out
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Development files
+Makefile
+docker-compose.yml
+docker-compose.*.yml
+Dockerfile*
+
+# Other
+*.log
+*.tmp
+.DS_Store
