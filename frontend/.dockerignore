@@ -1,0 +1,45 @@
+# Git
+.git
+.gitignore
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Documentation
+*.md
+!README.md
+
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs and caches
+.next
+out
+dist
+build
+
+# Test files
+coverage
+*.test.*
+*.spec.*
+__tests__
+
+# Environment files
+.env
+.env.*
+!.env.local
+
+# Development files
+Dockerfile*
+docker-compose*
+
+# Other
+.eslintcache
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
